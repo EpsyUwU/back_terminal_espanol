@@ -19,13 +19,7 @@ const io = new Server(server, {
     },
 });
 
-// Configurar conexión SSH
-const sshConfig = {
-    host: '', // Reemplaza con tu servidor SSH
-    port: 22,
-    username: '', // Reemplaza con tu usuario SSH
-    password: '' // Reemplaza con tu contraseña SSH
-};
+
 
 // Mapeo de comandos en español a comandos en inglés
 const comandoTraducido = {
